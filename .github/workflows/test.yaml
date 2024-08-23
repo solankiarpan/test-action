@@ -1,0 +1,9 @@
+name: Check pattern
+ 
+on:
+  workflow_dispatch: {}
+
+
+jobs:
+  call-workflow-in-another-repo:
+    uses: solankiarpan/generic_action/.github/workflows/check.yaml@main 

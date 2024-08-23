@@ -6,4 +6,4 @@ on:
 
 jobs:
   call-workflow-in-another-repo:
-    uses: solankiarpan/generic_action/.github/workflows/check.yaml@main 
+    uses: solankiarpan/generic-action/.github/workflows/check.yaml@main 

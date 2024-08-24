@@ -23,5 +23,5 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      - name: Search for word
-        uses: solankiarpan/generic-action@0.0.6
+      - name: Check Code
+        uses: solankiarpan/generic-action@0.0.7
